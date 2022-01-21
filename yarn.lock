@@ -1351,10 +1351,9 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
 
-"@testing-library/user-event@^13.5.0":
-  "integrity" "sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg=="
-  "resolved" "https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz"
-  "version" "13.5.0"
+"@testing-library/user-event@github:testing-library/user-event":
+  "resolved" "git+ssh://git@github.com/testing-library/user-event.git#a5ca2e47f30ea71b72a443c227ea125beb4e84b7"
+  "version" "0.0.0-semantically-released"
   dependencies:
     "@babel/runtime" "^7.12.5"
 
