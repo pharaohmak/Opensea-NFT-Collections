@@ -10,7 +10,7 @@ The address as well as the punks are displayed dynamically from Opensea Marketpl
 
 ## Live Demo 🌐
 
-**You Can See The `Clone` Live On:** [Here](https://crypto-punks-pi.vercel.app/)
+**You Can See The `Clone` Live On:** [Here](https://crypto-punks-clone.herokuapp.com/)
 
 ## :rocket: Technologies used:
 
@@ -71,12 +71,10 @@ npm install
 npm run start
 ```
 
-You are ready to build! Open [localhost:3000](http://localhost:3000/) to see the app.
 ## Authors
 
-Developed by **Hamed Osama**
+Developed by **Makram Ibrahim**
 
 ## Contact
 
--   Gmail: **[`hamedosama19@gmail.com`]**
--   **[LinkedIN](https://www.linkedin.com/in/hamed-osama-70b838206/)**
+-   Email: **[`pharaohmak@sleepingpharaoh.com`]**
