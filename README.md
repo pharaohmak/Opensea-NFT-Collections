@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# React Web3 App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Demo]()
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+React Web3 NFT Listing Web Application using ReactJs, ThirdWeb and opensea api and metamask wallet.
+The address as well as the punks are displayed dynamically from Opensea Marketplace.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo 🌐
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**You Can See The `Clone` Live On:** [Here](https://crypto-punks-clone.herokuapp.com/)
 
-### `npm test`
+## :rocket: Technologies used:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="html5" width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="css3" width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="javascript" width="70" height="70"/>
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"  width="70" height="70"/>
+<img src="https://avatars.githubusercontent.com/u/32372333?s=200&v=4" alt="React"  width="70" height="70"/>
+<img src="https://user-images.githubusercontent.com/99184393/180462270-ea4a249c-627c-4479-9431-5c3fd25454c4.png" alt="NodeJS" width="70" height="70" />
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional Used
+-  [x] NPM
+-  [x] ES6 (Modules)
+-  [x] Opensea (To fetch and List NFTs)
+-  [x] ThirdWeb (To mint NFTs and list on opensea)
+-  [x] Metamask Wallet (To connect with ThirdWeb)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⭐ Features
 
-### `npm run eject`
+-  [x] Fetch data from opensea
+-  [x] Real NFTS shown
+-  [x] Light and Dark themes
+-  [x] Smooth text change animation
+-  [x] Responsive design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Installation Steps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/HamedOsama/crypto-punks.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Change the working directory
 
-## Learn More
+```bash
+cd crypto-punks
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+4. Run the app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run start
+```
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Developed by **Makram Ibrahim**
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
+![Image text](https://yt3.ggpht.com/ytc/AMLnZu_GS4vuibuZjr4ZBgVr97RrriUQrrhqeyWQWqMYfQ=s176-c-k-c0x00ffffff-no-rj)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Clever Programmer
 
-### Deployment
+1.18M subscribers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Wanna be part of the Discord Community? Register for the challenge 👉  Wanna be part of the Discord Community? Register for the challenge 👉  https://www.cleverprogrammer.com/chal...](https://www.cleverprogrammer.com/chal...)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
