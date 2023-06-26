@@ -4,15 +4,14 @@ import instagramLogo from '../assets/owner/instagram.png';
 import tweeterLogo from '../assets/owner/twitter.png';
 import moreIcon from '../assets/owner/more.png';
 
-const Main = ({ selectedPunk, PunkListData }) => {
+const Main = () => {
+    //({ selectedPunk, PunkListData }) => {
 
-    const [activePunk, setActivePunk] = useState(PunkListData[0]);
+    //const [activePunk, setActivePunk] = useState(PunkListData[0]);
 
-    useEffect(() => {
-        setActivePunk(PunkListData[selectedPunk])
-    }, [PunkListData, selectedPunk])
-
-
+    //useEffect(() => {
+        //setActivePunk(PunkListData[selectedPunk])
+    //}, [PunkListData, selectedPunk])
 
     return (
         <div className='main'>
