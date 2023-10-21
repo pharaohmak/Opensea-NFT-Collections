@@ -64,7 +64,7 @@ This NFT Listing Web Application is open source and available under the [MIT Lic
 
 ## Contact
 
-For any inquiries or questions, please contact the project owner at [youremail@example.com](mailto:youremail@example.com).
+For any inquiries or questions, please contact the project owner at [alchemist@sleepingpharaoh.com](mailto:alchemist@sleepingpharaoh.com).
 
 Thank you for your interest in the React Web3 NFT Listing Web Application tutorial!
 
