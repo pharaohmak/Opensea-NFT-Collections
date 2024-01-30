@@ -10,14 +10,6 @@ This repository contains the source code for a tutorial on building a React web 
 - OpenSea API integration: The web application fetches NFT data from OpenSea API to display NFT details and retrieve images.
 - Responsive design: The web application is designed to be responsive and can be used on various devices, including desktop computers, tablets, and mobile phones.
 
-## Technologies Used
-
-- ReactJS: The web application is built using ReactJS, a popular JavaScript library for building user interfaces.
-- ThirdWeb: ThirdWeb is a library that provides integration with Web3 and MetaMask for interacting with the Ethereum blockchain.
-- OpenSea API: The web application uses OpenSea API to fetch NFT data and images.
-- CSS: Cascading Style Sheets (CSS3) are used for styling the web application, including layout, colors, fonts, and animations.
-- State management: A state management library, such as Redux or MobX, can be used for managing the state of the web application and handling user interactions.
-
 ## Setup
 
 To set up the project locally, follow these steps:
@@ -47,6 +39,14 @@ or
 yarn start
 ```
 5. Open the web application in your preferred web browser to view the NFT listing web app.
+
+## Technologies Used
+
+- ReactJS: The web application is built using ReactJS, a popular JavaScript library for building user interfaces.
+- ThirdWeb: ThirdWeb is a library that provides integration with Web3 and MetaMask for interacting with the Ethereum blockchain.
+- OpenSea API: The web application uses OpenSea API to fetch NFT data and images.
+- CSS: Cascading Style Sheets (CSS3) are used for styling the web application, including layout, colors, fonts, and animations.
+- State management: A state management library, such as Redux or MobX, can be used for managing the state of the web application and handling user interactions.
 
 ## Contributing
 
