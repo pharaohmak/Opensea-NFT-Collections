@@ -41,6 +41,10 @@
     color: #a1a5b0;
 }
 
+.headerItems p {
+    cursor: not-allowed;
+}
+
 .headerItems > p {
     margin: 10px;
 }
@@ -48,6 +52,7 @@
 .headerActions {
     display: flex;
     align-items: center;
+    cursor: not-allowed;
 }
 
 .headerActions > div {
@@ -73,4 +78,5 @@
     padding: 15px 40px;
     border-radius: 50px;
     color: black;
+    cursor: not-allowed;
 }
