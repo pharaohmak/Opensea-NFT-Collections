@@ -1,5 +1,6 @@
 .main {
     max-height: 50vh;
+    margin: 24px 16px;
 }
 
 .mainContent {
@@ -19,7 +20,8 @@
     border-radius: 20px;
     overflow: hidden;
     display: flex;
-    margin-right: 20px;
+    margin: 20px;
+    justify-content: space-around;
 }
 
 
@@ -37,14 +39,13 @@
 }
 
 .title {
-    font-size: 96px;
+    font-size: 45px;
     font-weight: 800;
 }
 
 .itemNumber {
     color: #a1a5b0;
-    font-size: 72px;
-    align-self: center;
+    font-size: 24px;
 }
 
 .owner {

@@ -1,52 +1,63 @@
 import './App.css';
 import Header from './components/Header';
-
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import PunkList from './components/PunkList';
 import Main from './components/Main';
 
 function App() {
-
   const [punkListData, setPunkListData] = useState([]);
-  const [selectedPunk, setSelectedPunk] = useState(0);
+  const [selectedPunk, setSelectedPunk] = useState(null);
 
   useEffect(() => {
-    function fetchData() {
-      const getMyNft = async () => {
-        const openseaData = await axios.get(
-          'https://testnets-api.opensea.io/assets?asset_contract_address=0x7984a7230540cB30da1E17A25000542eBE9F37f2&order_direction=asc'
-        )
-        console.log(openseaData.data.assets);
+    async function fetchData() {
+      try {
+        const options = {
+          method: 'GET',
+          headers: {
+            accept: 'application/json',
+            'x-api-key': 'ddc30c7b2ea145039ee85956c5d6624e' // Ensure this key is valid for testnet
+          }
+        };
 
-        setSelectedPunk(openseaData.data.assets);
-        setPunkListData(openseaData.data.assets);
+        // Update the URL to the new testnet endpoint
+        const response = await axios.get('https://api.opensea.io/api/v2/collections', options);
+        const data = response.data;
+
+        if (response.status === 200) {
+          console.log(data);
+          
+          // Filter out collections with "Flower" in their name
+          const filteredCollections = data.collections.filter(
+            (collection) => !collection.name.includes("Flower")
+          );
+
+          setPunkListData(filteredCollections); // Update state with filtered collections
+
+          // Select the first item from filtered collections
+          if (filteredCollections.length > 0) {
+            setSelectedPunk(filteredCollections[0]); // Select the first filtered item by default
+          }
+        } else {
+          console.error("Failed to fetch data:", data);
+        }
+      } catch (err) {
+        console.error("Error occurred:", err);
       }
-      return getMyNft();
     }
-    fetchData()
+
+    fetchData();
   }, []);
 
-
   return (
-
     <div className='app'>
       <Header />
-
-
       {punkListData.length > 0 && (
         <>
-          <Main
-            punkListData={punkListData} />
-            selectedPunk={selectedPunk}
-
-          <PunkList
-            punkListData={punkListData}
-            selectedPunk={selectedPunk}
-          />
+          <Main punkListData={punkListData} selectedPunk={selectedPunk} />
+          <PunkList punkListData={punkListData} setSelectedPunk={setSelectedPunk} />
         </>
       )}
-
     </div>
   );
 }

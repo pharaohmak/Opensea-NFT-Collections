@@ -9,6 +9,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "github:testing-library/user-event",
     "@types/react-redux": "^7.1.22",
+    "alchemy-sdk": "^3.4.1",
     "axios": "^0.24.0",
     "define-lazy-prop": "^3.0.0",
     "ee-first": "^1.1.1",
