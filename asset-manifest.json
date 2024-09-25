@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/Crypto-Punks-Clone/static/css/main.d70ad411.css",
-    "main.js": "/Crypto-Punks-Clone/static/js/main.c1da5408.js",
-    "static/js/787.c7ace7c2.chunk.js": "/Crypto-Punks-Clone/static/js/787.c7ace7c2.chunk.js",
-    "static/media/weth.png": "/Crypto-Punks-Clone/static/media/weth.4101f1dacb92484cfd3f.png",
+    "main.css": "/Crypto-Punks-Clone/static/css/main.d50ca49e.css",
+    "main.js": "/Crypto-Punks-Clone/static/js/main.92ce764a.js",
+    "static/js/787.45294d1f.chunk.js": "/Crypto-Punks-Clone/static/js/787.45294d1f.chunk.js",
     "static/media/cryptopunk-logo.png": "/Crypto-Punks-Clone/static/media/cryptopunk-logo.8bee49d57faa44bb66f5.png",
-    "static/media/logo.svg": "/Crypto-Punks-Clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Crypto-Punks-Clone/index.html",
-    "main.d70ad411.css.map": "/Crypto-Punks-Clone/static/css/main.d70ad411.css.map",
-    "main.c1da5408.js.map": "/Crypto-Punks-Clone/static/js/main.c1da5408.js.map",
-    "787.c7ace7c2.chunk.js.map": "/Crypto-Punks-Clone/static/js/787.c7ace7c2.chunk.js.map"
+    "main.d50ca49e.css.map": "/Crypto-Punks-Clone/static/css/main.d50ca49e.css.map",
+    "main.92ce764a.js.map": "/Crypto-Punks-Clone/static/js/main.92ce764a.js.map",
+    "787.45294d1f.chunk.js.map": "/Crypto-Punks-Clone/static/js/787.45294d1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d70ad411.css",
-    "static/js/main.c1da5408.js"
+    "static/css/main.d50ca49e.css",
+    "static/js/main.92ce764a.js"
   ]
 }
