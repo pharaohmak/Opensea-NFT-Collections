@@ -1,6 +1,5 @@
 {
-  "homepage": "http://pharaohmak.github.io/Crypto-Punks-Clone",
-  "name": "crypto-punks-clone",
+  "name": "opensea-nft-collections",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -13,6 +12,7 @@
     "axios": "^0.24.0",
     "define-lazy-prop": "^3.0.0",
     "ee-first": "^1.1.1",
+    "express": "^4.21.0",
     "fill-range": "^7.0.1",
     "is-wsl": "^2.2.0",
     "react": "^17.0.2",
