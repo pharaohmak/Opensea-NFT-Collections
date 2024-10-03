@@ -6,6 +6,7 @@ import themeSwitchIcon from '../assets/header/theme-switch.png';
 
 const Header = ({ onSearch }) => {
     const [searchQuery, setSearchQuery] = useState('');
+    const [isOpen, setIsOpen] = useState(false);
 
     const handleSearch = (e) => {
         setSearchQuery(e.target.value);
@@ -14,8 +15,15 @@ const Header = ({ onSearch }) => {
         }
     };
 
+
+    // Function to toggle menu open/close
+    const toggleMenu = () => {
+      setIsOpen(!isOpen);
+    };
+
     return (
         <div className='header'>
+            
             <div className='logoContainer'>
                 <a href='/'>
                     <img src={logo} className='punkLogo' alt='CryptoPunk Logo' />
@@ -47,6 +55,23 @@ const Header = ({ onSearch }) => {
             </div>
 
             <div className='loginButton'>GET IN</div>
+            <div className="hamburger-menu">
+                {/* Hamburger button */}
+                <div className={`hamburger-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                {/* Menu items */}
+                <nav className={`menu ${isOpen ? 'open' : ''}`}>
+                    <ul>
+                        <li><a href="#home">Drops</a></li>
+                        <li><a href="#about">Marketplace</a></li>
+                        <li><a href="#services">Create</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     );
 };

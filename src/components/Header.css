@@ -56,7 +56,8 @@
 }
 
 .headerActions > div {
-    margin: 10px
+    margin: 10px;
+    display: none
 }
 
 .themeSwitchContainer {
@@ -80,3 +81,152 @@
     color: black;
     cursor: not-allowed;
 }
+/* General styles for larger screens (default) */
+.hamburger-menu {
+    position: relative;
+    display: none; /* Hide the hamburger menu by default */
+  }
+  
+  .searchBar, .headerItems, .loginButton {
+    display: block; /* Show these elements by default */
+  }
+  
+  .punkList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Use a grid layout for larger screens */
+    gap: 32px;
+  }
+  
+  /* Small mobile screens (max-width: 450px) */
+  @media (max-width: 450px) {
+    .searchBar, .headerItems, .loginButton {
+      display: none; /* Hide search bar, header items, and login button on small screens */
+    }
+  
+    .punkList {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 32px; /* Stack items vertically */
+    }
+  
+    .hamburger-menu {
+      display: flex; /* Show hamburger menu on small screens */
+    }
+  }
+  
+  /* Tablet screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .searchBar, .headerItems {
+      display: none; /* Hide search bar and header items on tablets */
+    }
+  
+    .punkList {
+      grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns for tablet screens */
+      gap: 24px;
+    }
+  
+    .hamburger-menu {
+      display: flex; /* Show hamburger menu */
+    }
+  }
+  
+  /* Larger mobile screens (min-width: 451px and max-width: 767px) */
+  @media (min-width: 451px) and (max-width: 767px) {
+    .searchBar, .headerItems, .loginButton {
+      display: none; /* Continue hiding search bar, header items, and login button */
+    }
+  
+    .punkList {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Use two-column grid for larger mobile screens */
+      gap: 16px;
+    }
+  
+    .hamburger-menu {
+      display: flex; /* Show hamburger menu */
+    }
+  }
+  
+  /* Desktop and large screens (min-width: 769px) */
+  @media (min-width: 769px) {
+    .punkList {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Use three-column grid for larger screens */
+      gap: 32px;
+    }
+  
+    .searchBar, .headerItems, .loginButton {
+      display: flex; /* Display all elements on large screens */
+    }
+  
+    .hamburger-menu {
+      display: none; /* Hide hamburger menu on large screens */
+    }
+  }
+  
+  /* Hamburger icon styling */
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger-icon.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-icon.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  /* Menu styling */
+  .menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    transition: height 0.3s ease;
+  }
+  
+  .menu.open {
+    height: 200px;
+  }
+  
+  .menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu ul li {
+    margin: 10px 0;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+  }
