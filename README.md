@@ -2,43 +2,12 @@
 
 This repository contains the source code for a tutorial on building a React web application for listing and displaying NFTs (Non-Fungible Tokens) using ReactJS, ThirdWeb, OpenSea API, and MetaMask wallet integration.
 
-## Features
-
-- NFT listing: The web application allows users to list their NFTs for sale, set prices, and add relevant details such as title, description, and image.
-- NFT browsing: Users can browse through the listed NFTs, view their details, and interact with them.
-- MetaMask integration: The web application integrates with MetaMask wallet for authentication and transaction processing.
-- OpenSea API integration: The web application fetches NFT data from OpenSea API to display NFT details and retrieve images.
-- Responsive design: The web application is designed to be responsive and can be used on various devices, including desktop computers, tablets, and mobile phones.
-
-## Setup
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository to your local machine using the following command:
-```
-git clone https://github.com/pharaohmak/react-web3-nft-listing.git
-```
-2. Navigate to the project directory:
-```
-cd react-web3-nft-listing
-```
-3. Install the dependencies using a package manager such as npm or yarn:
-```
-npm install
-```
-or
-```
-yarn install
-```
-4. Start the development server:
-```
-npm start
-```
-or
-```
-yarn start
-```
-5. Open the web application in your preferred web browser to view the NFT listing web app.
+## Project Highlights
+- **Comprehensive NFT Functionality**: Enables users to list, browse, and interact with NFTs seamlessly.  
+- **Blockchain Integration**: Built-in MetaMask support for secure wallet authentication and transaction handling.  
+- **OpenSea API**: Retrieves and displays rich NFT metadata and images dynamically.  
+- **Responsive Design**: Optimized for accessibility across devices, from desktops to mobile phones.  
+- **Cutting-Edge Tech Stack**: Combines Web3 capabilities with React for an interactive and decentralized experience.  
 
 ## Technologies Used
 
@@ -47,6 +16,14 @@ yarn start
 - OpenSea API: The web application uses OpenSea API to fetch NFT data and images.
 - CSS: Cascading Style Sheets (CSS3) are used for styling the web application, including layout, colors, fonts, and animations.
 - State management: A state management library, such as Redux or MobX, can be used for managing the state of the web application and handling user interactions.
+
+## Features
+
+- NFT listing: The web application allows users to list their NFTs for sale, set prices, and add relevant details such as title, description, and image.
+- NFT browsing: Users can browse through the listed NFTs, view their details, and interact with them.
+- MetaMask integration: The web application integrates with MetaMask wallet for authentication and transaction processing.
+- OpenSea API integration: The web application fetches NFT data from OpenSea API to display NFT details and retrieve images.
+- Responsive design: The web application is designed to be responsive and can be used on various devices, including desktop computers, tablets, and mobile phones.
 
 ## Contributing
 
